@@ -12,6 +12,7 @@ body {
   font-family: "Montserrat", sans-serif;
   padding: 20px;
   font-family: Montserrat;
+  width: 1300px;
 }
 
 .container {
@@ -49,3 +50,9 @@ body {
   justify-content: space-around;
 }
 
+
+
+
+.table td {
+  border: 2px solid black;
+}
