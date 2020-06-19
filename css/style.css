@@ -8,97 +8,216 @@ html {
 	box-sizing: inherit;
 }
 body {
-  background: #E5E5E5;
-  font-family: "Montserrat", sans-serif;
-  padding: 20px;
+	background: white;
+	font-family: "Montserrat", sans-serif;
+	margin: 0px;
+	padding: 0px;
   font-family: Montserrat;
-  
+ 
 }
 
-.container {
-  width: 1200px;
-  padding: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: white;
+.text {
+  font-weight: 400;
+	font-size: 20px;
+	line-height: 1.36 ;
+	letter-spacing: 0.06em;
 }
 
-.text-container {
-  text-align: center;
-  
-
+img {
+	display: block;
+	max-width: 100%;
+	
 }
 
-.main-title {
-  margin-bottom: 0px;
-}
-
-.header-text {
-  padding-bottom: 40px;
-  
-}
-
-.yacht-1 {
-  margin-bottom: 40px;
-}
-
-.yacht-3 {
-  margin-bottom: 0px;
-}
-
-.wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  border-top:  3px solid #d0d0d0; 
-  border-bottom:  3px solid #d0d0d0;
-}
-
-
-.table {
-  margin-top: 40px;
-  margin-right: auto;
-  margin-left: auto;
-  width: 800px;
-
-  
-}
-
-.table td {
-  border: 2px solid black;
-  padding: 20px;
-  
-}
-
-.section {
-  padding: 40px;
-  border-top:  3px solid #d0d0d0; 
-  border-bottom:  3px solid #d0d0d0;
-
+svg {
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
 h2 {
   text-align: center;
-  margin-bottom: 50px;
+  margin-top: 0px;
+  padding-top: 30px;
 }
 
-.complection-title {
-  margin-bottom: 50px;
+.section {
+	padding: 20px;
+	
+}
 
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+  max-width: 1400px;
+  min-height: 600px;
+  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+  
+}
+
+.about-yacht {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yacht-1 {
+	margin-right: 0px;
+}
+
+.describe-text {
+  padding: 50px;
+}
+
+.describe-text p {
+  font-weight: 500;
+	font-size: 20px;
+	
+}
+
+.yacht-3 {
+	margin-bottom: 0px;
+}
+
+.section.hero {
+	content: "";
+	position: relative;
+
+	border: none;
+	max-width: 1600px;
+	min-height: 600px;
+	margin-right: auto;
+	margin-left: auto;
+
+	background-image: url(/img/yachting_01.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.text-container {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	transform: translateY(-70%);
+	display: inline-block;
+	background: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8));
+  text-align: center;
+  padding: 70px;
+}
+
+.main-title {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  
+
+	font-weight: 900;
+	font-size: 70px;
+	line-height: 1.36;
+	letter-spacing: 0.06em;
+	
+	text-transform: uppercase;
+	
+  
+  display: block;
+}
+
+.header-text {
+	margin: 0px;
+  color: white;
+  
+
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 1.36 ;
+	letter-spacing: 0.06em;
+	
+
+	
+	
+}
+
+.container-description{
+padding: 50px;
+}
+
+.grey-bcg {
+  background-color: rgb(128, 128, 128, 0.2);
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.title-characteristic {
+font-weight: 700;
+	font-size: 30px;
+	line-height: 1.36 ;
+  letter-spacing: 0.06em;
+  padding-bottom: 50px;
+  padding-top: 70px;
+}
+
+.table {
+	
+	margin-right: auto;
+	margin-left: auto;
+  width: 800px;
+  padding-bottom: 50px;
+
+  font-weight: 400;
+	font-size: 20px;
+	line-height: 1.36 ;
+	letter-spacing: 0.06em;
+}
+
+.table td {
+	border: 2px solid black;
+	padding: 20px;
+}
+
+.table th {
+  text-align: center;
+  padding: 30px;
+
+  font-weight: 700;
+	font-size: 30px;
+	line-height: 1.36 ;
+	letter-spacing: 0.06em;
+}
+
+
+
+
+.complection-title {
+  
+  font-weight: 700;
+	font-size: 30px;
+	line-height: 1.36 ;
+  letter-spacing: 0.06em;
+  padding-bottom: 50px;
 }
 
 .section ol {
-  margin-bottom: 40px;
-  line-height: 1.60;
+	margin-bottom: 40px;
+	line-height: 1.60;
 }
 
 .section p {
-  text-align: center;
-  line-height: 1.60;
+	text-align: center;
+	line-height: 1.60;
 }
 h3 {
-  text-align: center;
-  margin-bottom: 40px;
+	text-align: center;
+	margin-bottom: 40px;
 }
