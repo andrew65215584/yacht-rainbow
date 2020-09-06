@@ -53,46 +53,7 @@ h2 {
   box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
 }
 
-@media screen and (min-width: 320px) {
-  .container {
-    max-width: 320px;
-  }
-}
 
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-  .main-title {
-    font-size: 60px;
-  }
-
-  .about-yacht {
-    display: flex;
-  }
-  .main-title {
-    font-size: 40px;
-  }
-
-  .text-container {
-    padding: 50px;
-  }
-  .main-title {
-    font-size: 40px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-  .main-title {
-    font-size: 70px;
-  }
-  .section.hero {
-    max-width: 1600px;
-  }
-}
 
 .about-yacht {
   padding: 20px;
@@ -102,13 +63,12 @@ h2 {
 }
 
 .yacht-1 {
+	width: 100%;
   margin-right: 0px;
-  width: 60%;
+  
   height: auto;
   padding: 5px;
 }
-
-
 
 .describe-text p {
   font-weight: 500;
@@ -120,13 +80,13 @@ h2 {
 }
 
 .section.hero {
+  min-height: 400px;
   position: relative;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   border: none;
 
-  min-height: 400px;
   margin-right: auto;
   margin-left: auto;
 
@@ -165,7 +125,7 @@ h2 {
 }
 
 .container-description {
- padding: 20px;
+  padding: 20px;
 }
 
 .grey-bcg {
@@ -189,12 +149,12 @@ h2 {
 }
 
 .table {
-	margin: 0 auto;
-	font-size: 14px;
+  margin: 0 auto;
+  font-size: 14px;
   padding-bottom: 20px;
 
   font-weight: 400;
-  
+
   line-height: 1.36;
   letter-spacing: 0.06em;
 }
@@ -239,4 +199,51 @@ h3 {
 .video-player {
   width: 100%;
   height: auto;
+}
+
+
+
+@media screen and (min-width: 320px) {
+  .container {
+    max-width: 320px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .section.hero {
+  min-height: 600px;
+  
+  }
+
+  .about-yacht {
+    display: flex;
+  }
+ 
+
+  .text-container {
+    padding: 50px;
+  }
+  .main-title {
+    font-size: 40px;
+  }
+
+.yacht-1 {
+	width: 60%;
+}
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+  .main-title {
+    font-size: 50px;
+  }
+  .section.hero {
+    max-width: 1600px;
+  }
 }
